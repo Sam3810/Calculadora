@@ -24,16 +24,16 @@ input {
 
 button {
     color: white;
-    background-color: #27334d;
+    background: linear-gradient(270deg, #2a3b53, #3a5270);
     border-radius: 5px;
     border: 2px solid #222c42;
     padding: 5px 10px;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
     font-family: monospace;
 }
 
 button:hover {
-    background-color: #303f5e;
+    filter: blur(1px);
     border: 2px solid #293550;
 }
 
